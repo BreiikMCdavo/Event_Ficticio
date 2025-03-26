@@ -1,0 +1,16 @@
+/* Aquí puedes colocar las reglas específicas para la responsividad */
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .event-details,
+    .form-section {
+        padding: 15px;
+    }
+
+    .submit-btn {
+        font-size: 1rem;
+    }
+}

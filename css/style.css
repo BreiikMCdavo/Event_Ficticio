@@ -1,0 +1,93 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(145deg, #1e293b, #334155);
+    color: #f1f5f9;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Encabezado */
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #0f172a;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #38bdf8;
+}
+
+/* Detalles del evento */
+.event-details {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Formulario */
+.form-section {
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.form input,
+.form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #334155;
+    color: #f1f5f9;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: #94a3b8;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #38bdf8;
+    color: #0f172a;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #0ea5e9;
+}
+
+/* Pie de página */
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #0f172a;
+    border-radius: 12px;
+}
